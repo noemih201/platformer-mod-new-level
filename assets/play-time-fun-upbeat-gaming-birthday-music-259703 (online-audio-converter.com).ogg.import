@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://frtvrdj8ptvr"
+path="res://.godot/imported/play-time-fun-upbeat-gaming-birthday-music-259703 (online-audio-converter.com).ogg-fdc46fefce9ab4ddf50d817381347313.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/play-time-fun-upbeat-gaming-birthday-music-259703 (online-audio-converter.com).ogg"
+dest_files=["res://.godot/imported/play-time-fun-upbeat-gaming-birthday-music-259703 (online-audio-converter.com).ogg-fdc46fefce9ab4ddf50d817381347313.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

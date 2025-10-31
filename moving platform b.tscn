@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvjwk6h6ty144"]
+
+[ext_resource type="Texture2D" uid="uid://cv56enncqcdlj" path="res://assets/tiles-d.png" id="1_wtmub"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_togan"]
+size = Vector2(271, 73)
+
+[node name="moving platform b" type="AnimatableBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(28, -32)
+texture = ExtResource("1_wtmub")
+region_enabled = true
+region_rect = Rect2(898.804, 120.113, 254.658, 129.687)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(26.5, -65.5)
+shape = SubResource("RectangleShape2D_togan")
